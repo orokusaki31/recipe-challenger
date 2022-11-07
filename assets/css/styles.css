@@ -1,0 +1,42 @@
+/* reseteo de estilos */
+*,
+*::before,
+*::after{
+    margin:0;
+}
+/* convierto la imagen y el parrafo en flex para que queden en linea */
+header{
+    margin-left: 11px;
+}
+h1{
+    font-family: "playfair display", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    width: 323px;
+    height: 29px;
+    margin: 32px 41px 12px 0px;
+}
+#parrafo{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+#parrafo p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 14.63px;
+    width: 320px;
+    height: 88px;
+}
+#cake{
+    padding-top: 11.83px;
+    width: 352px;
+    height: 213.83px;
+}
+#cake img{
+    width: 100%;
+    border-radius: 12px;
+}
