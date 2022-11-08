@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>recipe challenger</title>
 </head>
@@ -23,10 +26,70 @@
     </header>
     <main>
         <section>
-        <div>servings</div>
-        <div>ingredients</div>
+        <div class="servingsTimes">
+            <div class="details">
+                <div class="icon">
+                    <span class="material-symbols-outlined" id="fork">
+                        restaurant_menu
+                        </span>
+                </div>
+                <div class="description">
+                    <h3>YIELDS</h3>
+                    <h3 id="servings">12 servings</h3>
+                </div>
+            </div>
+            <div class="times">
+                <div class="details">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                    </div>
+                    <div class="description">
+                        <h3>PREP TIME</h3>
+                        <h3>45 min</h3>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                    </div>
+                    <div class="description">
+                        <h3>COOK TIME</h3>
+                        <h3>1 hour</h3>
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            schedule
+                        </span>
+                    </div>
+                    <div class="description">
+                        <h3>TOTAL TIME</h3>
+                        <h3>7,75 hours</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ingredients">
+            <h2>ingredients</h2>
+            <h3>Graham craker crust</h3>
+            <div class="check">
+                <input type="checkbox" name="first" id="first">
+                <p>1 and 1/2 cups (150g) <span>graham cracker crumbs</span> (about 10 full sheet graham crackers)</p>
+            </div>
+        </div>
         </section>
-        <section>intructions</section>
+        <section id="intructions">
+            <h2>intructions</h2>
+            <div class="intruction">
+                <div><p>1</p></div>
+                <p class="ancho">Adjust the oven rack to the lower-middle position and preheat oven to 350°F (177°C).</p>
+            </div>
+        </section>
     </main>
     <footer></footer>
 </body>
